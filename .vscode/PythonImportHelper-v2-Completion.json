@@ -1,0 +1,2158 @@
+[
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "LIMITS",
+        "importPath": "environment.env_config",
+        "description": "environment.env_config",
+        "isExtraImport": true,
+        "detail": "environment.env_config",
+        "documentation": {}
+    },
+    {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "defaultdict",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "knn_graph",
+        "importPath": "torch_geometric.nn",
+        "description": "torch_geometric.nn",
+        "isExtraImport": true,
+        "detail": "torch_geometric.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "remove_self_loops",
+        "importPath": "torch_geometric.utils",
+        "description": "torch_geometric.utils",
+        "isExtraImport": true,
+        "detail": "torch_geometric.utils",
+        "documentation": {}
+    },
+    {
+        "label": "add_self_loops",
+        "importPath": "torch_geometric.utils",
+        "description": "torch_geometric.utils",
+        "isExtraImport": true,
+        "detail": "torch_geometric.utils",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "Data",
+        "importPath": "torch_geometric.data",
+        "description": "torch_geometric.data",
+        "isExtraImport": true,
+        "detail": "torch_geometric.data",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet",
+        "description": "pybullet",
+        "detail": "pybullet",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "pybullet_data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pybullet_data",
+        "description": "pybullet_data",
+        "detail": "pybullet_data",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Set",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "hypot",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "hypot",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "importPath": "environment.timer",
+        "description": "environment.timer",
+        "isExtraImport": true,
+        "detail": "environment.timer",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "importPath": "environment.timer",
+        "description": "environment.timer",
+        "isExtraImport": true,
+        "detail": "environment.timer",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "importPath": "environment.timer",
+        "description": "environment.timer",
+        "isExtraImport": true,
+        "detail": "environment.timer",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "importPath": "environment.timer",
+        "description": "environment.timer",
+        "isExtraImport": true,
+        "detail": "environment.timer",
+        "documentation": {}
+    },
+    {
+        "label": "transforms3d",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "transforms3d",
+        "description": "transforms3d",
+        "detail": "transforms3d",
+        "documentation": {}
+    },
+    {
+        "label": "auto",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "Dataset",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "isExtraImport": true,
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.patches",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "Ellipse",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "Ellipse",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "LineString",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Point",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "LineString",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "Polygon",
+        "importPath": "shapely.geometry",
+        "description": "shapely.geometry",
+        "isExtraImport": true,
+        "detail": "shapely.geometry",
+        "documentation": {}
+    },
+    {
+        "label": "PolygonPatch",
+        "importPath": "descartes",
+        "description": "descartes",
+        "isExtraImport": true,
+        "detail": "descartes",
+        "documentation": {}
+    },
+    {
+        "label": "PolygonPatch",
+        "importPath": "descartes",
+        "description": "descartes",
+        "isExtraImport": true,
+        "detail": "descartes",
+        "documentation": {}
+    },
+    {
+        "label": "affinity",
+        "importPath": "shapely",
+        "description": "shapely",
+        "isExtraImport": true,
+        "detail": "shapely",
+        "documentation": {}
+    },
+    {
+        "label": "affinity",
+        "importPath": "shapely",
+        "description": "shapely",
+        "isExtraImport": true,
+        "detail": "shapely",
+        "documentation": {}
+    },
+    {
+        "label": "itertools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itertools",
+        "description": "itertools",
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "pyplot",
+        "importPath": "matplotlib",
+        "description": "matplotlib",
+        "isExtraImport": true,
+        "detail": "matplotlib",
+        "documentation": {}
+    },
+    {
+        "label": "RRTStar2D",
+        "importPath": "path_planning_classes.rrt_star_2d",
+        "description": "path_planning_classes.rrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTStar2D",
+        "importPath": "path_planning_classes.rrt_star_2d",
+        "description": "path_planning_classes.rrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTStar2D",
+        "importPath": "path_planning_classes.rrt_star_2d",
+        "description": "path_planning_classes.rrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "importPath": "path_planning_utils.rrt_env",
+        "description": "path_planning_utils.rrt_env",
+        "isExtraImport": true,
+        "detail": "path_planning_utils.rrt_env",
+        "documentation": {}
+    },
+    {
+        "label": "IRRTStar2D",
+        "importPath": "path_planning_classes.irrt_star_2d",
+        "description": "path_planning_classes.irrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.irrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "IRRTStar2D",
+        "importPath": "path_planning_classes.irrt_star_2d",
+        "description": "path_planning_classes.irrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.irrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "IRRTStar2D",
+        "importPath": "path_planning_classes.irrt_star_2d",
+        "description": "path_planning_classes.irrt_star_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.irrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIARRTStarVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIARRTStarVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarGNGVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNGVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNGVisualizer",
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_point_cloud_mask_around_points",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_point_cloud_mask_around_points",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_rectangle_point_cloud",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_point_cloud_mask_around_points",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "\\",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_rectangle_point_cloud",
+        "importPath": "datasets.point_cloud_mask_utils",
+        "description": "datasets.point_cloud_mask_utils",
+        "isExtraImport": true,
+        "detail": "datasets.point_cloud_mask_utils",
+        "documentation": {}
+    },
+    {
+        "label": "open3d",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "open3d",
+        "description": "open3d",
+        "detail": "open3d",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_range",
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collision_line_circles_rectangles",
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_circles_rectangles",
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_range",
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_validity",
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarPNG2D",
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNG2D",
+        "importPath": "path_planning_classes.nrrt_star_png_2d",
+        "description": "path_planning_classes.nrrt_star_png_2d",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.nrrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "join",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "exists",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "join",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "join",
+        "importPath": "os.path",
+        "description": "os.path",
+        "isExtraImport": true,
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "Rotation",
+        "importPath": "scipy.spatial.transform",
+        "description": "scipy.spatial.transform",
+        "isExtraImport": true,
+        "detail": "scipy.spatial.transform",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "Pool",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "cpu_count",
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "isExtraImport": true,
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "Random2DEnv",
+        "importPath": "environment.random_2d_env",
+        "description": "environment.random_2d_env",
+        "isExtraImport": true,
+        "detail": "environment.random_2d_env",
+        "documentation": {}
+    },
+    {
+        "label": "BITStar",
+        "importPath": "path_planning_classes.bit_star",
+        "description": "path_planning_classes.bit_star",
+        "isExtraImport": true,
+        "detail": "path_planning_classes.bit_star",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "SummaryWriter",
+        "importPath": "torch.utils.tensorboard",
+        "description": "torch.utils.tensorboard",
+        "isExtraImport": true,
+        "detail": "torch.utils.tensorboard",
+        "documentation": {}
+    },
+    {
+        "label": "PathPlanDataset",
+        "importPath": "model.PathPlanDataLoader",
+        "description": "model.PathPlanDataLoader",
+        "isExtraImport": true,
+        "detail": "model.PathPlanDataLoader",
+        "documentation": {}
+    },
+    {
+        "label": "collate_fn",
+        "importPath": "model.PathPlanDataLoader",
+        "description": "model.PathPlanDataLoader",
+        "isExtraImport": true,
+        "detail": "model.PathPlanDataLoader",
+        "documentation": {}
+    },
+    {
+        "label": "ObstacleCAE",
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "isExtraImport": true,
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "PathKeypointGenerator",
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "isExtraImport": true,
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "PathLossTwoGaussWeighted",
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "isExtraImport": true,
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "RRT_EPS",
+        "kind": 5,
+        "importPath": "environment.env_config",
+        "description": "environment.env_config",
+        "peekOfCode": "RRT_EPS = 5e-2\nSTICK_LENGTH = 1.5 * 2 / 15\nLIMITS = np.array([1., 1., 8.*RRT_EPS])",
+        "detail": "environment.env_config",
+        "documentation": {}
+    },
+    {
+        "label": "STICK_LENGTH",
+        "kind": 5,
+        "importPath": "environment.env_config",
+        "description": "environment.env_config",
+        "peekOfCode": "STICK_LENGTH = 1.5 * 2 / 15\nLIMITS = np.array([1., 1., 8.*RRT_EPS])",
+        "detail": "environment.env_config",
+        "documentation": {}
+    },
+    {
+        "label": "LIMITS",
+        "kind": 5,
+        "importPath": "environment.env_config",
+        "description": "environment.env_config",
+        "peekOfCode": "LIMITS = np.array([1., 1., 8.*RRT_EPS])",
+        "detail": "environment.env_config",
+        "documentation": {}
+    },
+    {
+        "label": "EdgeAttribute",
+        "kind": 6,
+        "importPath": "environment.graph",
+        "description": "environment.graph",
+        "peekOfCode": "class EdgeAttribute:\n    Collided = 0\n    Free = 1\n    Unknown = 2\nclass Graph:\n    def __init__(self, env, k=6):\n        self.env = env\n        self.dim = env.dim\n        self.k = k  # the number of neighbors for k-nn of edges\n        self.V = []",
+        "detail": "environment.graph",
+        "documentation": {}
+    },
+    {
+        "label": "Graph",
+        "kind": 6,
+        "importPath": "environment.graph",
+        "description": "environment.graph",
+        "peekOfCode": "class Graph:\n    def __init__(self, env, k=6):\n        self.env = env\n        self.dim = env.dim\n        self.k = k  # the number of neighbors for k-nn of edges\n        self.V = []\n        self.V_attr = []  # the attribute of vertices\n        self.E = []\n        self.E_attr = {}  # the attribute of edges\n        # hyper parameters",
+        "detail": "environment.graph",
+        "documentation": {}
+    },
+    {
+        "label": "radius",
+        "kind": 2,
+        "importPath": "environment.graph",
+        "description": "environment.graph",
+        "peekOfCode": "def radius(n_samples, dim):\n    eta = 1.1\n    from scipy import special\n    # Hypersphere radius calculation\n    n = dim\n    unit_ball_volume = np.pi**(n/2.0) / special.gamma(n/2.0+1)\n    volume = np.abs(np.prod(LIMITS))*(2**n)\n    gamma = (1.0 + 1.0/n) * volume / unit_ball_volume\n    radius_constant = 2 * eta * (gamma**(1.0/n))\n    q = n_samples",
+        "detail": "environment.graph",
+        "documentation": {}
+    },
+    {
+        "label": "create_data",
+        "kind": 2,
+        "importPath": "environment.graph",
+        "description": "environment.graph",
+        "peekOfCode": "def create_data(env, y_config):\n    points, obs_mask = env.obs_map()\n    data = Data(x_map=torch.FloatTensor(points),\n                x_obs_mask=torch.LongTensor(obs_mask),\n                x_goal=torch.FloatTensor(env.goal_state),\n                y=torch.FloatTensor(y_config))\n    return data",
+        "detail": "environment.graph",
+        "documentation": {}
+    },
+    {
+        "label": "Kuka2Env",
+        "kind": 6,
+        "importPath": "environment.kuka_2arm_env",
+        "description": "environment.kuka_2arm_env",
+        "peekOfCode": "class Kuka2Env:\n    '''\n    Interface class for maze environment\n    '''\n    RRT_EPS = 0.5\n    voxel_r = 0.1\n    kukaEndEffectorIndex = 6\n    def __init__(self, GUI=False, kuka_file=\"kuka_iiwa/model.urdf\", map_file='maze_files/kukas_14_3000.pkl'):\n        # print(\"Initializing environment...\")\n        self.dim = 3",
+        "detail": "environment.kuka_2arm_env",
+        "documentation": {}
+    },
+    {
+        "label": "KukaEnv",
+        "kind": 6,
+        "importPath": "environment.kuka_env",
+        "description": "environment.kuka_env",
+        "peekOfCode": "class KukaEnv:\n    \"\"\"\n    KukaEnv - 用于基于 PyBullet 的 KUKA（iiwa）关节空间规划与碰撞检测环境。\n    接口兼容 Random2DEnv（step / sample / distance / interpolate 等）。\n    中文注释与详细 docstring 保留，便于直接阅读与维护。\n    主要特性:\n    - 支持随机障碍物（方块、球体），并可清理\n    - 更快的碰撞检测路径：当 self.obstacles 非空时，优先使用 getClosestPoints(kuka, obs, distance=0.0)\n    - 可忽略某些 body（ignored_body_ids），避免平面等造成误报\n    - 更安全的 set_config / get_config（长度检查、范围裁剪）",
+        "detail": "environment.kuka_env",
+        "documentation": {}
+    },
+    {
+        "label": "new_kuka_file",
+        "kind": 2,
+        "importPath": "environment.kuka_generate_urdf",
+        "description": "environment.kuka_generate_urdf",
+        "peekOfCode": "def new_kuka_file(block):\n    block_begin = \"<?xml version=\\\"1.0\\\" ?>\\r\\n<robot name=\\\"lbr_iiwa\\\" xmlns:xacro=\\\"http://www.ros.org/wiki/xacro\\\">\\r\\n  <!-- Import Rviz colors -->\\r\\n  <material name=\\\"Grey\\\">\\r\\n    <color rgba=\\\"0.2 0.2 0.2 1.0\\\"/>\\r\\n  </material>\\r\\n  <material name=\\\"Orange\\\">\\r\\n    <color rgba=\\\"1.0 0.423529411765 0.0392156862745 1.0\\\"/>\\r\\n  </material>\\r\\n  <material name=\\\"Blue\\\">\\r\\n  <color rgba=\\\"0.5 0.7 1.0 1.0\\\"/>\\r\\n</material>\\r\\n\\r\\n  <!--Import the lbr iiwa macro -->\\r\\n  <!--Import Transmissions -->\\r\\n  <!--Include Utilities -->\\r\\n  <!--The following macros are adapted from the LWR 4 definitions of the RCPRG - https://github.com/RCPRG-ros-pkg/lwr_robot -->\\r\\n  <!--Little helper macros to define the inertia matrix needed for links.-->\\r\\n  <!--Cuboid-->\\r\\n  <!--Cylinder: length is along the y-axis! -->\\r\\n  <!--lbr-->\\r\\n  <link name=\\\"lbr_iiwa_link_0\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"-0.1 0 0.07\\\"/>\\r\\n      <!--Increase mass from 5 Kg original to provide a stable base to carry the\\r\\n          arm.-->\\r\\n      <mass value=\\\"0.0\\\"/>\\r\\n      <inertia ixx=\\\"0.05\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.06\\\" iyz=\\\"0\\\" izz=\\\"0.03\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_0.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Grey\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_0.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n  <!-- joint between link_0 and link_1 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_1\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_0\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_1\\\"/>\\r\\n    <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0.1575\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.96705972839\\\" upper=\\\"2.96705972839\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_1\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 -0.03 0.12\\\"/>\\r\\n      <mass value=\\\"4\\\"/>\\r\\n      <inertia ixx=\\\"0.1\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.09\\\" iyz=\\\"0\\\" izz=\\\"0.02\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_1.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Blue\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_1.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n  <!-- joint between link_1 and link_2, the first joint we need to consider-->\\r\\n  <joint name=\\\"lbr_iiwa_joint_2\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_1\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_2\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679   0 3.14159265359\\\" xyz=\\\"0 0 0.2025\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.09439510239\\\" upper=\\\"2.09439510239\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_2\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0.0003 0.059 0.042\\\"/>\\r\\n      <mass value=\\\"4\\\"/>\\r\\n      <inertia ixx=\\\"0.05\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.018\\\" iyz=\\\"0\\\" izz=\\\"0.044\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_2.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Blue\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_2.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n  <!-- joint between link_2 and link_3 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_3\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_2\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_3\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679 0 3.14159265359\\\" xyz=\\\"0 0.2045 0\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.96705972839\\\" upper=\\\"2.96705972839\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_3\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0.03 0.13\\\"/>\\r\\n      <mass value=\\\"3\\\"/>\\r\\n      <inertia ixx=\\\"0.08\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.075\\\" iyz=\\\"0\\\" izz=\\\"0.01\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_3.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Orange\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_3.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n  <!-- joint between link_3 and link_4 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_4\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_3\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_4\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679 0 0\\\" xyz=\\\"0 0 0.2155\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.09439510239\\\" upper=\\\"2.09439510239\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_4\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0.067 0.034\\\"/>\\r\\n      <mass value=\\\"2.7\\\"/>\\r\\n      <inertia ixx=\\\"0.03\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.01\\\" iyz=\\\"0\\\" izz=\\\"0.029\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_4.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Blue\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_4.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n\"\n    def block_middle(id, prev_id):\n        return  \"<joint name=\\\"lbr_iiwa_joint%d\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_%d\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_%d\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679 0 3.14159265359\\\" xyz=\\\"0 0.1845 0\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.96705972839\\\" upper=\\\"2.96705972839\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_%d\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0.03 0.13\\\"/>\\r\\n      <mass value=\\\"3\\\"/>\\r\\n      <inertia ixx=\\\"0.08\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.075\\\" iyz=\\\"0\\\" izz=\\\"0.01\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_3.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Orange\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_3.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n\\r\\n   <!-- joint between link_5 and link_6 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_%d\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_%d\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_%d\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679 0 0\\\" xyz=\\\"0 0 0.2155\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.09439510239\\\" upper=\\\"2.09439510239\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_%d\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0.067 0.034\\\"/>\\r\\n      <mass value=\\\"2.7\\\"/>\\r\\n      <inertia ixx=\\\"0.03\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.01\\\" iyz=\\\"0\\\" izz=\\\"0.029\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_4.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Blue\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_4.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n\\r\\n\\r\\n\" \\\n                % (id, prev_id, id, id, id+1, id, id+1, id+1)\n    block_end = \"<!-- joint between link_4 and link_5 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_5\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_%d\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_5\\\"/>\\r\\n    <origin rpy=\\\"-1.57079632679 3.14159265359 0\\\" xyz=\\\"0 0.1845 0\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.96705972839\\\" upper=\\\"2.96705972839\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_5\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0.0001 0.021 0.076\\\"/>\\r\\n      <mass value=\\\"1.7\\\"/>\\r\\n      <inertia ixx=\\\"0.02\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.018\\\" iyz=\\\"0\\\" izz=\\\"0.005\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_5.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Blue\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_5.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n\\r\\n\\r\\n  <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THE MODIFIED BLOCK ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->\\r\\n\\r\\n\\r\\n  <!-- joint between link_5 and link_6 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_6\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_5\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_6\\\"/>\\r\\n    <origin rpy=\\\"1.57079632679 0 0\\\" xyz=\\\"0 0 0.2155\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-2.09439510239\\\" upper=\\\"2.09439510239\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_6\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0.0006 0.0004\\\"/>\\r\\n      <mass value=\\\"1.8\\\"/>\\r\\n      <inertia ixx=\\\"0.005\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.0036\\\" iyz=\\\"0\\\" izz=\\\"0.0047\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_6.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Orange\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_6.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n  <!-- joint between link_6 and link_7 -->\\r\\n  <joint name=\\\"lbr_iiwa_joint_7\\\" type=\\\"revolute\\\">\\r\\n    <parent link=\\\"lbr_iiwa_link_6\\\"/>\\r\\n    <child link=\\\"lbr_iiwa_link_7\\\"/>\\r\\n    <origin rpy=\\\"-1.57079632679 3.14159265359 0\\\" xyz=\\\"0 0.081 0\\\"/>\\r\\n    <axis xyz=\\\"0 0 1\\\"/>\\r\\n    <limit effort=\\\"300\\\" lower=\\\"-3.05432619099\\\" upper=\\\"3.05432619099\\\" velocity=\\\"10\\\"/>\\r\\n    <dynamics damping=\\\"0.5\\\"/>\\r\\n  </joint>\\r\\n  <link name=\\\"lbr_iiwa_link_7\\\">\\r\\n    <inertial>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0.02\\\"/>\\r\\n      <mass value=\\\"0.3\\\"/>\\r\\n      <inertia ixx=\\\"0.001\\\" ixy=\\\"0\\\" ixz=\\\"0\\\" iyy=\\\"0.001\\\" iyz=\\\"0\\\" izz=\\\"0.001\\\"/>\\r\\n    </inertial>\\r\\n    <visual>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_7.obj\\\"/>\\r\\n      </geometry>\\r\\n      <material name=\\\"Grey\\\"/>\\r\\n    </visual>\\r\\n    <collision>\\r\\n      <origin rpy=\\\"0 0 0\\\" xyz=\\\"0 0 0\\\"/>\\r\\n      <geometry>\\r\\n        <mesh filename=\\\"meshes/link_7.stl\\\"/>\\r\\n      </geometry>\\r\\n    </collision>\\r\\n  </link>\\r\\n\\r\\n  \\r\\n</robot>\" \\\n        % (7+block*2)\n    str = \"\"\n    for id in range(block):\n        if id==0:",
+        "detail": "environment.kuka_generate_urdf",
+        "documentation": {}
+    },
+    {
+        "label": "LicheEnv",
+        "kind": 6,
+        "importPath": "environment.liche_env",
+        "description": "environment.liche_env",
+        "peekOfCode": "class LicheEnv:\n    \"\"\"\n    LicheEnv - 用于基于 PyBullet 的 LICHE关节空间规划与碰撞检测环境。\n    接口兼容 Random2DEnv（step / sample / distance / interpolate 等）。\n    中文注释与详细 docstring 保留，便于直接阅读与维护。\n    主要特性:\n    - 支持随机障碍物（方块、球体），并可清理\n    - 更快的碰撞检测路径：当 self.obstacles 非空时，优先使用 getClosestPoints(kuka, obs, distance=0.0)\n    - 可忽略某些 body（ignored_body_ids），避免平面等造成误报\n    - 更安全的 set_config / get_config（长度检查、范围裁剪）",
+        "detail": "environment.liche_env",
+        "documentation": {}
+    },
+    {
+        "label": "interpolate_path",
+        "kind": 2,
+        "importPath": "environment.liche_env",
+        "description": "environment.liche_env",
+        "peekOfCode": "def interpolate_path(path: Sequence[Sequence[float]], step_size: float = 0.1):\n    \"\"\"\n    对路径进行线性插值，使关节或坐标变化平滑\n    :param path: 原始路径 (list of configs)\n    :param step_size: 相邻节点最大欧式间距\n    :return: 插值后的平滑路径\n    \"\"\"\n    if len(path) < 2:\n        return path\n    interpolated = [np.array(path[0], dtype=float)]",
+        "detail": "environment.liche_env",
+        "documentation": {}
+    },
+    {
+        "label": "MazeEnv",
+        "kind": 6,
+        "importPath": "environment.maze_env",
+        "description": "environment.maze_env",
+        "peekOfCode": "class MazeEnv:\n    '''\n    Interface class for maze environment\n    '''\n    RRT_EPS = RRT_EPS\n    voxel_r = 1./15\n    def __init__(self, dim, map_file=None):\n        # print(\"Initializing environment...\")\n        self.dim = dim\n        self.config_dim = dim",
+        "detail": "environment.maze_env",
+        "documentation": {}
+    },
+    {
+        "label": "Random2DKinodynamicEnv",
+        "kind": 6,
+        "importPath": "environment.random_2d_dy_env",
+        "description": "environment.random_2d_dy_env",
+        "peekOfCode": "class Random2DKinodynamicEnv:\n    \"\"\"\n    Kinodynamic 2D 随机环境类（位置 + 速度，双积分动力学）\n    \"\"\"\n    def __init__(self, env_dict, max_vel=2.0, mode=\"train\"):\n        \"\"\"\n        env_dict: dict 包含：\n            - 'rect_obstacles': [[x, y, w, h], ...]\n            - 'circle_obstacles': [[x, y, r], ...]\n            - 'start': [x0, y0]",
+        "detail": "environment.random_2d_dy_env",
+        "documentation": {}
+    },
+    {
+        "label": "Random2DEnv",
+        "kind": 6,
+        "importPath": "environment.random_2d_env",
+        "description": "environment.random_2d_env",
+        "peekOfCode": "class Random2DEnv:\n    \"\"\"\n    随机2D环境类（连续空间 + 矩形/圆形障碍）\n    \"\"\"\n    def __init__(self, env_dict, mode=\"train\"):\n        self.mode = mode\n        self.envs = env_dict\n        self.episode_i = 0\n        self.collision_check_count = 0\n        width, height = env_dict['env_dims']",
+        "detail": "environment.random_2d_env",
+        "documentation": {}
+    },
+    {
+        "label": "RobotArmEnv",
+        "kind": 6,
+        "importPath": "environment.roboarm_env",
+        "description": "environment.roboarm_env",
+        "peekOfCode": "class RobotArmEnv:\n    \"\"\"\n    通用机械臂环境类 (UR5, KUKA等)\n    \"\"\"\n    RRT_EPS = 0.5\n    voxel_r = 0.1\n    def __init__(self, arm_file, map_file=None, GUI=False, base_position=[0,0,0]):\n        self.arm_file = arm_file\n        self.base_position = base_position\n        # pybullet连接",
+        "detail": "environment.roboarm_env",
+        "documentation": {}
+    },
+    {
+        "label": "SnakeEnv",
+        "kind": 6,
+        "importPath": "environment.snake_env",
+        "description": "environment.snake_env",
+        "peekOfCode": "class SnakeEnv:\n    '''\n    Interface class for maze environment\n    '''\n    RRT_EPS = 0.1\n    voxel_r = 0.1\n    height = 0.5\n    def __init__(self, map_file='maze_files/snakes_15_2_3000.npz', GUI=False):\n        # print(\"Initializing environment...\")\n        with np.load(map_file) as f:",
+        "detail": "environment.snake_env",
+        "documentation": {}
+    },
+    {
+        "label": "Timer",
+        "kind": 6,
+        "importPath": "environment.timer",
+        "description": "environment.timer",
+        "peekOfCode": "class Timer:\n    VERTEX_CHECK = 0\n    EDGE_CHECK = 4\n    SAMPLE = 1\n    PLAN = 2\n    CREATE = 3\n    FORWARD = 5\n    NN = 6\n    EXPAND = 7\n    HEAP = 8",
+        "detail": "environment.timer",
+        "documentation": {}
+    },
+    {
+        "label": "UR5Env",
+        "kind": 6,
+        "importPath": "environment.ur5_env",
+        "description": "environment.ur5_env",
+        "peekOfCode": "class UR5Env:\n    \"\"\"\n    UR5Env - 用于基于 PyBullet 的 UR5（iiwa）关节空间规划与碰撞检测环境。\n    接口兼容 Random2DEnv（step / sample / distance / interpolate 等）。\n    中文注释与详细 docstring 保留，便于直接阅读与维护。\n    主要特性:\n    - 支持随机障碍物（方块、球体），并可清理\n    - 更快的碰撞检测路径：当 self.obstacles 非空时，优先使用 getClosestPoints(kuka, obs, distance=0.0)\n    - 可忽略某些 body（ignored_body_ids），避免平面等造成误报\n    - 更安全的 set_config / get_config（长度检查、范围裁剪）",
+        "detail": "environment.ur5_env",
+        "documentation": {}
+    },
+    {
+        "label": "interpolate_path",
+        "kind": 2,
+        "importPath": "environment.ur5_env",
+        "description": "environment.ur5_env",
+        "peekOfCode": "def interpolate_path(path: Sequence[Sequence[float]], step_size: float = 0.02):\n    \"\"\"\n    对路径进行线性插值，使关节或坐标变化平滑\n    :param path: 原始路径 (list of configs)\n    :param step_size: 相邻节点最大欧式间距\n    :return: 插值后的平滑路径\n    \"\"\"\n    if len(path) < 2:\n        return path\n    interpolated = [np.array(path[0], dtype=float)]",
+        "detail": "environment.ur5_env",
+        "documentation": {}
+    },
+    {
+        "label": "ObstacleCAE",
+        "kind": 6,
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "peekOfCode": "class ObstacleCAE(nn.Module):\n    \"\"\"\n    输入: 障碍信息 (B, n_obs, 4)\n    输出: 障碍 latent 特征 (B, latent_dim)\n    \"\"\"\n    def __init__(self, n_obs=10, obs_dim=4, latent_dim=128):\n        super().__init__()\n        input_dim = n_obs * obs_dim\n        self.encoder = nn.Sequential(\n            nn.Linear(input_dim, 256), nn.PReLU(),",
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "PathKeypointGenerator",
+        "kind": 6,
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "peekOfCode": "class PathKeypointGenerator(nn.Module):\n    \"\"\"\n    输入:\n        - obs_latent: CAE 编码的障碍 latent (B, latent_dim)\n        - start_state: 起始状态 (B, point_dim)\n        - goal_state: 目标状态 (B, point_dim)\n    输出:\n        - path_points: 路径点云 (B, N_points, point_dim)\n    \"\"\"\n    def __init__(self, obs_latent_dim=128, point_dim=2, latent_dim=128, n_points=128):",
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "PathLossTwoGaussWeighted",
+        "kind": 6,
+        "importPath": "model.PathGeneratorModel",
+        "description": "model.PathGeneratorModel",
+        "peekOfCode": "class PathLossTwoGaussWeighted(nn.Module):\n    \"\"\"\n    Fully vectorized Path loss with two Gaussian components (weighted) using per-dimension sigma:\n    1. Gaussian along path line segments\n    2. Gaussian at path points\n    Plus path smoothness and CAE reconstruction.\n    \"\"\"\n    def __init__(self, sigma_ratio_line=0.05, sigma_ratio_point=0.05,\n                 w_line=0.6, w_point=0.4, w_smooth=0.8, w_cae=0.5):\n        super().__init__()",
+        "detail": "model.PathGeneratorModel",
+        "documentation": {}
+    },
+    {
+        "label": "PathPlanDataset",
+        "kind": 6,
+        "importPath": "model.PathPlanDataLoader",
+        "description": "model.PathPlanDataLoader",
+        "peekOfCode": "class PathPlanDataset(Dataset):\n    def __init__(self, dataset_filepath):\n        data = np.load(dataset_filepath, allow_pickle=True)\n        self.start = data[\"start\"].astype(np.float32)\n        self.goal = data[\"goal\"].astype(np.float32)\n        self.path = [p.astype(np.float32) for p in data[\"path\"]]\n        self.rectangle_obstacles = [o.astype(np.float32) for o in data[\"rectangle_obstacles\"]]\n        self.token = data[\"token\"]\n    def __len__(self):\n        return len(self.path)",
+        "detail": "model.PathPlanDataLoader",
+        "documentation": {}
+    },
+    {
+        "label": "collate_fn",
+        "kind": 2,
+        "importPath": "model.PathPlanDataLoader",
+        "description": "model.PathPlanDataLoader",
+        "peekOfCode": "def collate_fn(batch, device=None):\n    # Paths\n    paths = [item[\"path\"] for item in batch]\n    path_lengths = [p.shape[0] for p in paths]\n    max_len = max(path_lengths)\n    D = paths[0].shape[1]\n    padded_paths = torch.zeros(len(paths), max_len, D)\n    mask = torch.zeros(len(paths), max_len, dtype=torch.bool)\n    for i, p in enumerate(paths):\n        padded_paths[i, :p.shape[0]] = p",
+        "detail": "model.PathPlanDataLoader",
+        "documentation": {}
+    },
+    {
+        "label": "PointNetSetAbstraction",
+        "kind": 6,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "class PointNetSetAbstraction(nn.Module):\n    def __init__(self, npoint, radius, nsample, in_channel, mlp, group_all):\n        super(PointNetSetAbstraction, self).__init__()\n        self.npoint = npoint\n        self.radius = radius\n        self.nsample = nsample\n        self.mlp_convs = nn.ModuleList()\n        self.mlp_bns = nn.ModuleList()\n        last_channel = in_channel\n        for out_channel in mlp:",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PointNetSetAbstractionMsg",
+        "kind": 6,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "class PointNetSetAbstractionMsg(nn.Module):\n    def __init__(self, npoint, radius_list, nsample_list, in_channel, mlp_list, coord_dim):\n        super(PointNetSetAbstractionMsg, self).__init__()\n        self.npoint = npoint\n        self.radius_list = radius_list\n        self.nsample_list = nsample_list\n        self.conv_blocks = nn.ModuleList()\n        self.bn_blocks = nn.ModuleList()\n        for i in range(len(mlp_list)):\n            convs = nn.ModuleList()",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "PointNetFeaturePropagation",
+        "kind": 6,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "class PointNetFeaturePropagation(nn.Module):\n    def __init__(self, in_channel, mlp):\n        super(PointNetFeaturePropagation, self).__init__()\n        self.mlp_convs = nn.ModuleList()\n        self.mlp_bns = nn.ModuleList()\n        last_channel = in_channel\n        for out_channel in mlp:\n            self.mlp_convs.append(nn.Conv1d(last_channel, out_channel, 1))\n            self.mlp_bns.append(nn.BatchNorm1d(out_channel))\n            last_channel = out_channel",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "timeit",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def timeit(tag, t):\n    print(\"{}: {}s\".format(tag, time() - t))\n    return time()\ndef pc_normalize(pc, return_stats=False):\n    \"\"\"\n    Normalize point cloud to unit sphere.\n    Args:\n        pc (np.ndarray): (N, d)\n        return_stats (bool): whether to also return centroid and scale\n    Returns:",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "pc_normalize",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def pc_normalize(pc, return_stats=False):\n    \"\"\"\n    Normalize point cloud to unit sphere.\n    Args:\n        pc (np.ndarray): (N, d)\n        return_stats (bool): whether to also return centroid and scale\n    Returns:\n        pc_norm (np.ndarray): normalized point cloud\n        (optional) centroid, scale\n    \"\"\"",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "square_distance",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def square_distance(src, dst):\n    \"\"\"\n    Calculate Euclid distance between each two points.\n    src^T * dst = xn * xm + yn * ym + zn * zm;\n    sum(src^2, dim=-1) = xn*xn + yn*yn + zn*zn;\n    sum(dst^2, dim=-1) = xm*xm + ym*ym + zm*zm;\n    dist = (xn - xm)^2 + (yn - ym)^2 + (zn - zm)^2\n         = sum(src**2,dim=-1)+sum(dst**2,dim=-1)-2*src^T*dst\n    Input:\n        src: source points, [B, N, C]",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "index_points",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def index_points(points, idx):\n    \"\"\"\n    Input:\n        points: input points data, [B, N, C]\n        idx: sample index data, [B, S]\n    Return:\n        new_points:, indexed points data, [B, S, C]\n    \"\"\"\n    device = points.device\n    B = points.shape[0]",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "farthest_point_sample",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def farthest_point_sample(xyz, npoint):\n    \"\"\"\n    Input:\n        xyz: pointcloud data, [B, N, 3]\n        npoint: number of samples\n    Return:\n        centroids: sampled pointcloud index, [B, npoint]\n    \"\"\"\n    device = xyz.device\n    B, N, C = xyz.shape",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "query_ball_point",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def query_ball_point(radius, nsample, xyz, new_xyz):\n    \"\"\"\n    Input:\n        radius: local region radius\n        nsample: max sample number in local region\n        xyz: all points, [B, N, C]\n        new_xyz: query points, [B, S, C]\n    Return:\n        group_idx: grouped points index, [B, S, nsample]\n    \"\"\"",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sample_and_group",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def sample_and_group(npoint, radius, nsample, xyz, points, returnfps=False):\n    \"\"\"\n    Input:\n        npoint:\n        radius:\n        nsample:\n        xyz: input points position data, [B, N, 3]\n        points: input points data, [B, N, D]\n    Return:\n        new_xyz: sampled points position data, [B, npoint, nsample, 3]",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "sample_and_group_all",
+        "kind": 2,
+        "importPath": "model.pointnet2_utils",
+        "description": "model.pointnet2_utils",
+        "peekOfCode": "def sample_and_group_all(xyz, points):\n    \"\"\"\n    Input:\n        xyz: input points position data, [B, N, 3]\n        points: input points data, [B, N, D]\n    Return:\n        new_xyz: sampled points position data, [B, 1, 3]\n        new_points: sampled points data, [B, 1, N, 3+D]\n    \"\"\"\n    device = xyz.device",
+        "detail": "model.pointnet2_utils",
+        "documentation": {}
+    },
+    {
+        "label": "BITStar",
+        "kind": 6,
+        "importPath": "path_planning_classes.bit_star",
+        "description": "path_planning_classes.bit_star",
+        "peekOfCode": "class BITStar:\n    def __init__(self, \n                start,\n                goal,\n                environment, \n                iter_max, \n                batch_size,\n                pc_n_points, \n                plot_flag=False, timer=None):\n        if timer is None:",
+        "detail": "path_planning_classes.bit_star",
+        "documentation": {}
+    },
+    {
+        "label": "get_bit_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.bit_star",
+        "description": "path_planning_classes.bit_star",
+        "peekOfCode": "def get_bit_planner(\n    args,\n    problem,\n    neural_wrapper=None,\n):\n    planner = BITStar(\n        problem[\"start\"],\n        problem[\"goal\"],\n        problem['env'],\n        args.iter_max,",
+        "detail": "path_planning_classes.bit_star",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "path_planning_classes.bit_star",
+        "description": "path_planning_classes.bit_star",
+        "peekOfCode": "project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))\nif project_root not in sys.path:\n    sys.path.append(project_root)\nimport math\nimport yaml\nimport heapq\nfrom time import time\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Ellipse\nfrom shapely.geometry import Point, LineString, Polygon",
+        "detail": "path_planning_classes.bit_star",
+        "documentation": {}
+    },
+    {
+        "label": "INF",
+        "kind": 5,
+        "importPath": "path_planning_classes.bit_star",
+        "description": "path_planning_classes.bit_star",
+        "peekOfCode": "INF = float(\"inf\")\nclass BITStar:\n    def __init__(self, \n                start,\n                goal,\n                environment, \n                iter_max, \n                batch_size,\n                pc_n_points, \n                plot_flag=False, timer=None):",
+        "detail": "path_planning_classes.bit_star",
+        "documentation": {}
+    },
+    {
+        "label": "det",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def det(a, b):\n    return a[0] * b[1] - a[1] * b[0]\ndef line_intersection(line1, line2):\n    \"\"\"\n    - inputs\n        - line1: [[x_start, y_start],[x_end,y_end]] np or list.\n        - line2: [[x_start, y_start],[x_end,y_end]] np or list.\n    - outputs\n        - intersection: bool.\n    \"\"\"",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "line_intersection",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def line_intersection(line1, line2):\n    \"\"\"\n    - inputs\n        - line1: [[x_start, y_start],[x_end,y_end]] np or list.\n        - line2: [[x_start, y_start],[x_end,y_end]] np or list.\n    - outputs\n        - intersection: bool.\n    \"\"\"\n    xdiff = (line1[0][0] - line1[1][0], line2[0][0] - line2[1][0])\n    ydiff = (line1[0][1] - line1[1][1], line2[0][1] - line2[1][1])",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collision_line_single_circle",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def check_collision_line_single_circle(\n    line,\n    circle_center,\n    circle_radius,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - line: [[x_start, y_start],[x_end,y_end]] np.\n        - circle_center: [x_center, y_center] np.",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "point_in_single_circle",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def point_in_single_circle(\n    point,\n    circle_center,\n    circle_radius,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - point: [x, y] np.\n        - circle_center: [x_center, y_center] np.",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "point_in_single_rectangle",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def point_in_single_rectangle(\n    point,\n    xywh,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - point: [x, y] np or list.\n        - xywh: [x, y, w, h] np or list.\n        - clearance: scalar >= 0",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collision_line_single_rectangle",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def check_collision_line_single_rectangle(\n    line,\n    xywh,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - line: [[x_start, y_start],[x_end,y_end]] np.\n        - xywh: [x, y, w, h] np or list.\n        - clearance: scalar >= 0",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collision_single_aabb_pair",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def check_collision_single_aabb_pair(aabb1, aabb2):\n    \"\"\"\n    - inputs:\n        - aabb1: [[x1, y1], [x2, y2]] where x2=x1+w, y2=y1+h. np or list.\n        - aabb2: [[x1, y1], [x2, y2]] where x2=x1+w, y2=y1+h. np or list.\n    - outputs:\n        - collision: bool.\n    \"\"\"\n    return (aabb1[0][0] <= aabb2[1][0] and aabb1[1][0] >= aabb2[0][0]) and \\\n       (aabb1[0][1] <= aabb2[1][1] and aabb1[1][1] >= aabb2[0][1])",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collsion_aabb_aabbs",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def check_collsion_aabb_aabbs(aabb, aabbs):\n    \"\"\"\n    - inputs:\n        - aabb: [[x1, y1], [x2, y2]] where x2=x1+w, y2=y1+h. np (2, 2)\n        - aabbs: [[x1, y1], [x2, y2]] where x2=x1+w, y2=y1+h. np (n_aabbs, 2, 2)\n    - outputs:\n        - collision: np bool (n_aabbs,).\n    \"\"\"\n    collision = (aabb[0,0]<=aabbs[:,1,0])*(aabb[1,0]>=aabbs[:,0,0])*\\\n        (aabb[0,1]<=aabbs[:,1,1])*(aabb[1,1]>=aabbs[:,0,1]) # (n_aabbs,)",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "check_collision_line_circles_rectangles",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def check_collision_line_circles_rectangles(\n    line,\n    circles,\n    rectangles,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - line: [[x_start, y_start],[x_end,y_end]] np. (2,2)\n        - circles: [x_center, y_center, radius] np. (n_circles, 3) or None",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_rectangles",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def points_in_rectangles(\n    points,\n    rectangles,\n    clearance=0,\n):\n    \"\"\"\n    check whether 2D points are in 2D rectangles\n    - inputs\n        - points: np (n, 2) or tuple (2,)\n        - rectangles: np (m, 4), (x, y, w, h), or None, which means no obstacles",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_circles",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def points_in_circles(\n    points,\n    circles,\n    clearance=0,\n):\n    \"\"\"\n    check whether 2D points are in 2D circles\n    - inputs\n        - points: np (n, 2) or tuple (2,)\n        - circles: np (m, 3), (x, y, r), or None, which means no obstacles",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_circles_rectangles",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def points_in_circles_rectangles(\n    points,\n    circles,\n    rectangles,\n    clearance=0,\n):\n    \"\"\"\n    check whether 2D points are in 2D circles or 2D rectangles\n    - inputs:\n        - points: np (n, 2) or tuple (2,)",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_in_range",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def points_in_range(\n    points,\n    x_range,\n    y_range,\n    clearance=0,\n):\n    \"\"\"\n    - inputs:\n        - points: np (n, 2) or tuple (2,)\n        - x_range: (xmin, xmax)",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "points_validity",
+        "kind": 2,
+        "importPath": "path_planning_classes.collision_check_utils",
+        "description": "path_planning_classes.collision_check_utils",
+        "peekOfCode": "def points_validity(\n    points,\n    circle_obstacles,\n    rectangle_obstacles,\n    x_range,\n    y_range,\n    obstacle_clearance=0,\n    range_clearance=0,\n):\n    \"\"\"",
+        "detail": "path_planning_classes.collision_check_utils",
+        "documentation": {}
+    },
+    {
+        "label": "IRRTStar2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.irrt_star_2d",
+        "description": "path_planning_classes.irrt_star_2d",
+        "peekOfCode": "class IRRTStar2D(RRTStar2D):\n    def __init__(self, start, goal, step_len, search_radius, iter_max, env, clearance):\n        super().__init__(start, goal, step_len, search_radius, iter_max, env, clearance)\n        # store solution indices\n        self.path_solutions = []\n        # safe bounds handling: env.bound can be [xmin, xmax, ymin, ymax] or [[xmin,xmax],[ymin,ymax]]\n        bound_arr = np.array(self.env.bound)\n        if bound_arr.ndim == 1 and bound_arr.size == 4:\n            self.bounds = bound_arr.reshape((2, 2)).T  # [[xmin, xmax], [ymin, ymax]] -> transpose -> shape (2,2)\n        elif bound_arr.ndim == 2 and bound_arr.shape == (2, 2):",
+        "detail": "path_planning_classes.irrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.irrt_star_2d",
+        "description": "path_planning_classes.irrt_star_2d",
+        "peekOfCode": "def get_path_planner(args, problem, neural_wrapper=None):\n    return IRRTStar2D(\n        problem['start'],\n        problem['goal'],\n        args.step_len,\n        problem.get('search_radius', 5.0),\n        args.iter_max,\n        problem['env'],\n        args.clearance,\n    )",
+        "detail": "path_planning_classes.irrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NBITStar",
+        "kind": 6,
+        "importPath": "path_planning_classes.nbit_star",
+        "description": "path_planning_classes.nbit_star",
+        "peekOfCode": "class NBITStar:\n    def __init__(self, \n                start,\n                goal,\n                environment, \n                neural_wrapper,\n                iter_max, \n                batch_size,\n                pc_n_points, \n                plot_flag=False, timer=None):",
+        "detail": "path_planning_classes.nbit_star",
+        "documentation": {}
+    },
+    {
+        "label": "get_point_cloud_mask_around_points",
+        "kind": 2,
+        "importPath": "path_planning_classes.nbit_star",
+        "description": "path_planning_classes.nbit_star",
+        "peekOfCode": "def get_point_cloud_mask_around_points(point_cloud, points, neighbor_radius=3):\n    \"\"\"\n    - 自动支持 point_cloud 和 points 的任意维度\n    - point_cloud: (n, C)\n    - points: (m, C)\n    - neighbor_radius: 半径阈值\n    \"\"\"\n    point_cloud = np.asarray(point_cloud)\n    points = np.asarray(points)\n    # 检查维度一致",
+        "detail": "path_planning_classes.nbit_star",
+        "documentation": {}
+    },
+    {
+        "label": "get_bit_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nbit_star",
+        "description": "path_planning_classes.nbit_star",
+        "peekOfCode": "def get_bit_planner(\n    args,\n    problem,\n    neural_wrapper=None,\n):\n    planner = NBITStar(\n        problem[\"start\"],\n        problem[\"goal\"],\n        problem['env'],\n        neural_wrapper,",
+        "detail": "path_planning_classes.nbit_star",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "path_planning_classes.nbit_star",
+        "description": "path_planning_classes.nbit_star",
+        "peekOfCode": "project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))\nif project_root not in sys.path:\n    sys.path.append(project_root)\nimport math\nimport yaml\nimport heapq\nfrom time import time\nimport matplotlib.pyplot as plt\nfrom matplotlib.patches import Ellipse\nfrom shapely.geometry import Point, LineString, Polygon",
+        "detail": "path_planning_classes.nbit_star",
+        "documentation": {}
+    },
+    {
+        "label": "INF",
+        "kind": 5,
+        "importPath": "path_planning_classes.nbit_star",
+        "description": "path_planning_classes.nbit_star",
+        "peekOfCode": "INF = float(\"inf\")\ndef get_point_cloud_mask_around_points(point_cloud, points, neighbor_radius=3):\n    \"\"\"\n    - 自动支持 point_cloud 和 points 的任意维度\n    - point_cloud: (n, C)\n    - points: (m, C)\n    - neighbor_radius: 半径阈值\n    \"\"\"\n    point_cloud = np.asarray(point_cloud)\n    points = np.asarray(points)",
+        "detail": "path_planning_classes.nbit_star",
+        "documentation": {}
+    },
+    {
+        "label": "NIARRTStarPNG2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.niarrt_star_png_2d",
+        "description": "path_planning_classes.niarrt_star_png_2d",
+        "peekOfCode": "class NIARRTStarPNG2D(IRRTStar2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper,",
+        "detail": "path_planning_classes.niarrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.niarrt_star_png_2d",
+        "description": "path_planning_classes.niarrt_star_png_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NIARRTStarPNG2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.niarrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIARRTStarPNG2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nirrt_star_png_2d copy",
+        "description": "path_planning_classes.nirrt_star_png_2d copy",
+        "peekOfCode": "class NIARRTStarPNG2D(IRRTStar2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper,",
+        "detail": "path_planning_classes.nirrt_star_png_2d copy",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d copy",
+        "description": "path_planning_classes.nirrt_star_png_2d copy",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NIARRTStarPNG2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nirrt_star_png_2d copy",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarPNG2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "class NIRRTStarPNG2D(IRRTStar2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper,",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_binary_mask",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def get_binary_mask(env_img):\n    \"\"\"\n    - inputs:\n        - env_img: np (img_height, img_width, 3)\n        - binary_mask: np float 0. or 1. (img_height, img_width)\n    \"\"\"\n    env_dims = env_img.shape[:2]\n    binary_mask = np.zeros(env_dims).astype(float)\n    binary_mask[env_img[:,:,0]!=0]=1\n    return binary_mask",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_point_cloud_mask_around_points",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def get_point_cloud_mask_around_points(point_cloud, points, neighbor_radius=3):\n    \"\"\"\n    - 自动支持 point_cloud 和 points 的任意维度\n    - point_cloud: (n, C)\n    - points: (m, C)\n    - neighbor_radius: 半径阈值\n    \"\"\"\n    point_cloud = np.asarray(point_cloud)\n    points = np.asarray(points)\n    # 检查维度一致",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "generate_rectangle_point_cloud",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def generate_rectangle_point_cloud(\n    binary_mask,\n    n_points,\n    over_sample_scale=5,\n):\n    \"\"\"\n    - outputs:\n        - point_cloud: (n_points, 2)\n    \"\"\"\n    img_height, img_width = binary_mask.shape",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RotationToWorldFrame",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def RotationToWorldFrame(start_point, goal_point, L):\n    \"\"\"\n    - inputs:\n        - start_point: np float64 (2,)\n        - goal_point: np float64 (2,)\n        - L: scalar\n    - outputs:\n        - C: rotation matrix, np float64 (3,3)\n    \"\"\"\n    a1 = (goal_point - start_point)/L",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_distance_and_angle",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def get_distance_and_angle(start_point, goal_point):\n    \"\"\"\n    - inputs:\n        - start_point: np float64 (2,)\n        - goal_point: np float64 (2,)\n    \"\"\"\n    dx, dy = goal_point - start_point\n    return math.hypot(dx, dy), math.atan2(dy, dx)\ndef ellipsoid_point_cloud_sampling(\n    start_point,",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "ellipsoid_point_cloud_sampling",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def ellipsoid_point_cloud_sampling(\n    start_point,\n    goal_point,\n    max_min_ratio,\n    binary_mask,\n    n_points=1000,\n    n_raw_samples=10000,\n):\n    \"\"\"\n    - inputs",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_2d",
+        "description": "path_planning_classes.nirrt_star_png_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NIRRTStarPNG2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nirrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarPNGC2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nirrt_star_png_c_2d",
+        "description": "path_planning_classes.nirrt_star_png_c_2d",
+        "peekOfCode": "class NIRRTStarPNGC2D(NIRRTStarPNG2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper_connect,",
+        "detail": "path_planning_classes.nirrt_star_png_c_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nirrt_star_png_c_2d",
+        "description": "path_planning_classes.nirrt_star_png_c_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NIRRTStarPNGC2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nirrt_star_png_c_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarGNG2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nrrt_star_gng_2d",
+        "description": "path_planning_classes.nrrt_star_gng_2d",
+        "peekOfCode": "class NRRTStarGNG2D(RRTStar2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        gng_wrapper,",
+        "detail": "path_planning_classes.nrrt_star_gng_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nrrt_star_gng_2d",
+        "description": "path_planning_classes.nrrt_star_gng_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NRRTStarGNG2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nrrt_star_gng_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNG2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nrrt_star_png_2d",
+        "description": "path_planning_classes.nrrt_star_png_2d",
+        "peekOfCode": "class NRRTStarPNG2D(RRTStar2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper,",
+        "detail": "path_planning_classes.nrrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nrrt_star_png_2d",
+        "description": "path_planning_classes.nrrt_star_png_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NRRTStarPNG2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nrrt_star_png_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNGC2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.nrrt_star_png_c_2d",
+        "description": "path_planning_classes.nrrt_star_png_c_2d",
+        "peekOfCode": "class NRRTStarPNGC2D(NRRTStarPNG2D):\n    def __init__(\n        self,\n        x_start,\n        x_goal,\n        step_len,\n        search_radius,\n        iter_max,\n        env_dict,\n        png_wrapper_connect,",
+        "detail": "path_planning_classes.nrrt_star_png_c_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.nrrt_star_png_c_2d",
+        "description": "path_planning_classes.nrrt_star_png_c_2d",
+        "peekOfCode": "def get_path_planner(\n    args,\n    problem,\n    neural_wrapper,\n):\n    return NRRTStarPNGC2D(\n        problem['x_start'],\n        problem['x_goal'],\n        args.step_len,\n        problem['search_radius'],",
+        "detail": "path_planning_classes.nrrt_star_png_c_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTBase2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_base_2d",
+        "description": "path_planning_classes.rrt_base_2d",
+        "peekOfCode": "class RRTBase2D:\n    \"\"\"\n    基于RRT的2D路径规划器，适配Random2DEnv\n    \"\"\"\n    def __init__(\n        self,\n        start,\n        goal,\n        step_len,\n        search_radius,",
+        "detail": "path_planning_classes.rrt_base_2d",
+        "documentation": {}
+    },
+    {
+        "label": "Env",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_env_2d",
+        "description": "path_planning_classes.rrt_env_2d",
+        "peekOfCode": "class Env:\n    def __init__(\n        self,\n        env_dict,\n        ):\n        \"\"\"\n        x_range: tuple (xmin, xmax)\n        y_range: tuple (ymin, ymax)\n        circle_obstacles: np [[cx, cy, r]] or None\n        rectangle_obstacles: np [[x,y,w,h]] or None",
+        "detail": "path_planning_classes.rrt_env_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTStar2D",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_star_2d",
+        "description": "path_planning_classes.rrt_star_2d",
+        "peekOfCode": "class RRTStar2D(RRTBase2D):\n    def __init__(self, start, goal, step_len, search_radius, iter_max, env, clearance):\n        super().__init__(\n            start,\n            goal,\n            step_len,\n            search_radius,\n            iter_max,\n            env,\n            clearance,",
+        "detail": "path_planning_classes.rrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "get_path_planner",
+        "kind": 2,
+        "importPath": "path_planning_classes.rrt_star_2d",
+        "description": "path_planning_classes.rrt_star_2d",
+        "peekOfCode": "def get_path_planner(args, problem, neural_wrapper=None):\n    \"\"\"\n    Factory function to create a RRT* planner for Random2DEnv\n    \"\"\"\n    return RRTStar2D(\n        start=problem['start'],\n        goal=problem['goal'],\n        step_len=args.step_len,\n        search_radius=problem.get('search_radius', 5.0),\n        iter_max=args.iter_max,",
+        "detail": "path_planning_classes.rrt_star_2d",
+        "documentation": {}
+    },
+    {
+        "label": "Utils",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_utils_2d",
+        "description": "path_planning_classes.rrt_utils_2d",
+        "peekOfCode": "class Utils:\n    def __init__(self, env, clearance):\n        self.env = env\n        self.clearance = clearance\n        if len(self.env.obs_circle)>0:\n            self.obs_circle = np.array(self.env.obs_circle)\n        else:\n            self.obs_circle = None\n        if len(self.env.obs_rectangle)>0:\n            self.obs_rectangle = np.array(self.env.obs_rectangle)",
+        "detail": "path_planning_classes.rrt_utils_2d",
+        "documentation": {}
+    },
+    {
+        "label": "RRTStarVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class RRTStarVisualizer:\n    def __init__(self, x_start, x_goal, env):\n        self.x_start, self.x_goal = x_start, x_goal\n        self.env = env\n        self.obs_bound = self.env.obs_boundary\n        self.obs_circle = self.env.obs_circle\n        self.obs_rectangle = self.env.obs_rectangle\n    def animation(self, vertices, vertex_parents, path, figure_title, animation=False, img_filename=None, img_folder='visualization/planning_demo'):\n        self.plot_grid(figure_title)\n        self.plot_visited(vertices, vertex_parents, animation)",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "IRRTStarVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class IRRTStarVisualizer(RRTStarVisualizer):\n    def __init__(self, x_start, x_goal, env):\n        super().__init__(x_start, x_goal, env)\n    def animation(self, vertices, vertex_parents, path, figure_title,\\\n                  x_center, c_best, dist, theta, img_filename=None, img_folder='visualization/planning_demo'):\n        self.plot_grid(figure_title)\n        self.plot_visited(vertices, vertex_parents, animation=False)\n        if c_best != np.inf:\n            self.draw_ellipse(x_center, c_best, dist, theta)\n        self.plot_path(path)",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarPNGVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class NRRTStarPNGVisualizer(RRTStarVisualizer):\n    def __init__(self, x_start, x_goal, env, path_point_cloud_pred=None):\n        super().__init__(x_start, x_goal, env)\n        self.path_point_cloud_pred = path_point_cloud_pred\n    def set_path_point_cloud_pred(self, path_point_cloud_pred):\n        self.path_point_cloud_pred = path_point_cloud_pred\n    def animation(self, vertices, vertex_parents, path, figure_title, animation=False, img_filename=None, img_folder='visualization/planning_demo'):\n        self.plot_grid(figure_title)\n        self.plot_visited(vertices, vertex_parents, animation)\n        if self.path_point_cloud_pred is not None:",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIRRTStarVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class NIRRTStarVisualizer(IRRTStarVisualizer):\n    def __init__(self, x_start, x_goal, env, path_point_cloud_pred=None):\n        super().__init__(x_start, x_goal, env)\n        self.path_point_cloud_pred = path_point_cloud_pred\n        self.path_point_cloud_other = None\n    def set_path_point_cloud_other(self, path_point_cloud_other):\n        self.path_point_cloud_other = path_point_cloud_other\n    def set_path_point_cloud_pred(self, path_point_cloud_pred):\n        self.path_point_cloud_pred = path_point_cloud_pred\n    def set_current_expansion(self, node):",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NIARRTStarVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class NIARRTStarVisualizer:\n    def __init__(self, x_start, x_goal, env,\n                 path_point_cloud_pred=None,\n                 path_point_cloud_other=None,\n                 path_score=None,\n                 token_xyz=None,\n                 token_kp_score=None,\n                 global_trend=None):\n        self.x_start, self.x_goal = x_start, x_goal\n        self.env = env",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "NRRTStarGNGVisualizer",
+        "kind": 6,
+        "importPath": "path_planning_classes.rrt_visualizer_2d",
+        "description": "path_planning_classes.rrt_visualizer_2d",
+        "peekOfCode": "class NRRTStarGNGVisualizer(RRTStarVisualizer):\n    def __init__(self, x_start, x_goal, env, path_point_cloud_pred=None, img_path_score=None):\n        super().__init__(x_start, x_goal, env)\n        self.path_point_cloud_pred = path_point_cloud_pred\n        self.img_path_score = img_path_score\n    def set_path_point_cloud_pred(self, path_point_cloud_pred):\n        self.path_point_cloud_pred = path_point_cloud_pred\n    def set_img_path_score(self, img_path_score):\n        self.img_path_score = img_path_score\n    def plot_prob_heatmap(self):",
+        "detail": "path_planning_classes.rrt_visualizer_2d",
+        "documentation": {}
+    },
+    {
+        "label": "add_random_obstacles_2d",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_parallel",
+        "description": "generate_random_world_2d_parallel",
+        "peekOfCode": "def add_random_obstacles_2d(env, config):\n    \"\"\"\n    在 2D 环境中生成随机矩形和圆形障碍\n    \"\"\"\n    obstacles = []\n    # 矩形\n    for _ in range(random.randint(*config[\"num_boxes_range\"])):\n        w, h = random.uniform(*config[\"box_size_range\"]), random.uniform(*config[\"box_size_range\"])\n        x = random.uniform(0, env.bound[1][0] - w)\n        y = random.uniform(0, env.bound[1][1] - h)",
+        "detail": "generate_random_world_2d_parallel",
+        "documentation": {}
+    },
+    {
+        "label": "generate_single_env",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_parallel",
+        "description": "generate_random_world_2d_parallel",
+        "peekOfCode": "def generate_single_env(args):\n    env_idx, config = args\n    while True:\n        path_list, start_list, goal_list = [], [], []\n        try:\n            # 初始化环境\n            env = Random2DEnv({\n                \"env_dims\": config.get(\"env_dims\", [10, 10]),\n                \"rectangle_obstacles\": []\n            })",
+        "detail": "generate_random_world_2d_parallel",
+        "documentation": {}
+    },
+    {
+        "label": "generate_env_dataset_parallel",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_parallel",
+        "description": "generate_random_world_2d_parallel",
+        "peekOfCode": "def generate_env_dataset_parallel(config):\n    env_type = config.get(\"env_type\", \"random_2d\")\n    target_sizes = {\n        \"train\": config.get(\"train_env_size\", 10),\n        \"val\": config.get(\"val_env_size\", 5),\n        \"test\": config.get(\"test_env_size\", 10),\n    }\n    num_workers = max(1, min(cpu_count(), config.get(\"num_workers\", cpu_count())))\n    print(f\"🧩 使用 {num_workers} 个并行进程\")\n    for mode in [\"train\", \"val\", \"test\"]:",
+        "detail": "generate_random_world_2d_parallel",
+        "documentation": {}
+    },
+    {
+        "label": "save_raw_dataset",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_pc",
+        "description": "generate_random_world_2d_pc",
+        "peekOfCode": "def save_raw_dataset(raw_dataset, dataset_dir, mode, tmp=False):\n    raw_dataset_saved = {}\n    for k in raw_dataset.keys():\n        if k == \"token\":\n            arr = np.array(raw_dataset[k], dtype=str)\n        else:\n            arr = np.stack(raw_dataset[k], axis=0).astype(np.float32)\n        raw_dataset_saved[k] = arr\n    filename = \"_tmp.npz\" if tmp else mode + \".npz\"\n    np.savez(join(dataset_dir, filename), **raw_dataset_saved)",
+        "detail": "generate_random_world_2d_pc",
+        "documentation": {}
+    },
+    {
+        "label": "process_env",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_pc",
+        "description": "generate_random_world_2d_pc",
+        "peekOfCode": "def process_env(env_dict, EnvClass, mode):\n    env = EnvClass(env_dict)\n    env_idx = env_dict[\"env_idx\"]\n    dataset = {\n        \"token\": [],\n        \"start\": [],\n        \"goal\": [],\n        \"path\": [],\n        \"rectangle_obstacles\": [np.array(env.rect_obstacles, dtype=np.float32)]\n    }",
+        "detail": "generate_random_world_2d_pc",
+        "documentation": {}
+    },
+    {
+        "label": "generate_npz_dataset",
+        "kind": 2,
+        "importPath": "generate_random_world_2d_pc",
+        "description": "generate_random_world_2d_pc",
+        "peekOfCode": "def generate_npz_dataset(env_type=\"random_2d_bitstar\"):\n    from environment.random_2d_env import Random2DEnv as Env\n    dataset_dir = join(\"data\", f\"{env_type}\")\n    for mode in [\"train\", \"val\"]:\n        env_json_path = join(dataset_dir, mode, \"envs.json\")\n        with open(env_json_path, \"r\") as f:\n            env_list = json.load(f)\n        raw_dataset = {\n            \"token\": [],\n            \"start\": [],",
+        "detail": "generate_random_world_2d_pc",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def parse_args():\n    parser = argparse.ArgumentParser('Train CAE + PathKeypointGenerator')\n    parser.add_argument('--dim', type=int, default=2, help='Environment dimension (2 or 3)')\n    parser.add_argument('--batch_size', type=int, default=8)\n    parser.add_argument('--epoch', type=int, default=100)\n    parser.add_argument('--learning_rate', type=float, default=1e-3)\n    parser.add_argument('--random_seed', type=int, default=42)\n    parser.add_argument('--npoints', type=int, default=128, help='Number of generated path points')\n    parser.add_argument('--latent_dim', type=int, default=128, help='Latent dim for obstacle CAE')\n    return parser.parse_args()",
+        "detail": "train",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "train",
+        "description": "train",
+        "peekOfCode": "def main(args):\n    # ---- 文件和日志目录 ----\n    experiment_dir = os.path.join('results', f'CAE_PathGen_{args.dim}d')\n    checkpoints_dir = os.path.join(experiment_dir, 'checkpoints')\n    os.makedirs(checkpoints_dir, exist_ok=True)\n    # ---- logging ----\n    logging.basicConfig(\n        filename=os.path.join(experiment_dir, 'train.log'),\n        level=logging.INFO,\n        format='%(asctime)s %(message)s'",
+        "detail": "train",
+        "documentation": {}
+    }
+]

@@ -11,10 +11,13 @@ import numpy as np
 import torch
 import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader, TensorDataset
-from model.cae.cae_2d import Encoder_CNN_2D, Decoder_CNN_2D  # 使用最新训练脚本中的模型
+
+# ✅ 导入 auto_cae_train_v6 中的模型
+from model.cae.cae_2d import Encoder_CNN_2D, Decoder_CNN_2D
+
 
 # ===============================
-# 可视化函数
+# 🔹 可视化函数
 # ===============================
 def visualize_reconstruction(original, reconstructed, n=5, save_path=None):
     """
@@ -26,18 +29,19 @@ def visualize_reconstruction(original, reconstructed, n=5, save_path=None):
     reconstructed = reconstructed.cpu().detach().numpy()
     n = min(n, original.shape[0])
 
-    plt.figure(figsize=(n*2, 4))
+    plt.figure(figsize=(n * 2, 4))
     for i in range(n):
-        plt.subplot(2, n, i+1)
-        plt.imshow(original[i,0], cmap='gray')
+        plt.subplot(2, n, i + 1)
+        plt.imshow(original[i, 0], cmap='gray')
         plt.title("Original")
         plt.axis('off')
-        plt.subplot(2, n, i+1+n)
-        plt.imshow(reconstructed[i,0], cmap='gray')
+
+        plt.subplot(2, n, i + 1 + n)
+        plt.imshow(reconstructed[i, 0], cmap='gray')
         plt.title("Reconstructed")
         plt.axis('off')
-    plt.tight_layout()
 
+    plt.tight_layout()
     if save_path:
         plt.savefig(save_path, dpi=200)
         plt.close()
@@ -47,55 +51,61 @@ def visualize_reconstruction(original, reconstructed, n=5, save_path=None):
 
 
 # ===============================
-# 主函数
+# 🔹 主函数
 # ===============================
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_path', type=str, default='data/random_2d/grids.npy',
-                        help="待可视化的数据集路径")
+                        help="待可视化的数据集路径 (.npy)")
     parser.add_argument('--model_dir', type=str, default='results',
-                        help="模型所在目录")
-    parser.add_argument('--batch_size', type=int, default=16)
+                        help="模型所在目录（默认 ./results）")
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--n_visualize', type=int, default=5,
                         help="显示或保存前 n 张")
     parser.add_argument('--save_dir', type=str, default=None,
-                        help="保存可视化图片的目录，如果不设置则显示")
+                        help="保存可视化图片的目录，如果不设置则直接显示")
+    parser.add_argument('--latent_dim', type=int, default=256,
+                        help="必须与训练时相同")
     args = parser.parse_args()
 
-    # 模型路径
-    encoder_path = os.path.join(args.model_dir,"cae", "best", "encoder_best.pth")
-    decoder_path = os.path.join(args.model_dir,"cae", "best", "decoder_best.pth")
+    # ===============================
+    # 路径与设备
+    # ===============================
+    encoder_path = os.path.join(args.model_dir, "cae/encoder_best.pth")
+    decoder_path = os.path.join(args.model_dir, "cae/decoder_best.pth")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
+    if not os.path.exists(encoder_path) or not os.path.exists(decoder_path):
+        raise FileNotFoundError(f"❌ 模型文件不存在，请确认路径：\n{encoder_path}\n{decoder_path}")
+
+    # ===============================
     # 加载数据
+    # ===============================
     data = np.load(args.dataset_path)
-    data = torch.from_numpy(data).float().unsqueeze(1)  # [N,1,H,W]
+    if data.ndim == 3:
+        data = data[:, None, :, :]  # [N,1,H,W]
+    data = torch.from_numpy(data).float()
     loader = DataLoader(TensorDataset(data), batch_size=args.batch_size, shuffle=False)
 
-    # 获取输入大小
-    input_size = data.shape[-1]
-    latent_dim = 128  # 与训练时保持一致
-    dropout_p = 0.0
-
+    # ===============================
     # 初始化模型
-    encoder = Encoder_CNN_2D(input_size=input_size, latent_dim=latent_dim)
-    decoder = Decoder_CNN_2D(feature_map_size=encoder.feature_map_size, latent_dim=latent_dim)
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    encoder.to(device)
-    decoder.to(device)
-
-    # 加载权重
+    # ===============================
+    input_size = data.shape[-1]
+    encoder = Encoder_CNN_2D(input_size=input_size, latent_dim=args.latent_dim).to(device)
+    decoder = Decoder_CNN_2D(feature_map_size=encoder.feature_map_size, latent_dim=args.latent_dim).to(device)
     encoder.load_state_dict(torch.load(encoder_path, map_location=device))
     decoder.load_state_dict(torch.load(decoder_path, map_location=device))
-    encoder.eval()
-    decoder.eval()
+    encoder.to(device).eval()
+    decoder.to(device).eval()
 
+    # ===============================
     # 可视化
+    # ===============================
     for batch in loader:
         x = batch[0].to(device)
         with torch.no_grad():
-            latent = encoder(x)
-            recon = decoder(latent)
+            latent, enc_feats = encoder(x)
+            recon = decoder(latent, enc_feats)
 
         if args.save_dir:
             os.makedirs(args.save_dir, exist_ok=True)
@@ -104,7 +114,10 @@ def main():
             save_path = None
 
         visualize_reconstruction(x, recon, n=args.n_visualize, save_path=save_path)
-        break  # 只显示/保存第一批
+        break  # 只显示第一批
+
+    print("✅ 可视化完成！")
+
 
 if __name__ == "__main__":
     main()

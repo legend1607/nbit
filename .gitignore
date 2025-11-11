@@ -1,7 +1,6 @@
 */log*/
 __pycache__/
 *.zip
-*.npz
 *.npy
 *.pth
 *.csv

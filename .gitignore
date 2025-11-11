@@ -1,0 +1,12 @@
+*/log*/
+__pycache__/
+*.zip
+*.npz
+*.npy
+*.pth
+*.csv
+*.png
+*.pickle
+*.pt
+*.txt
+*.json

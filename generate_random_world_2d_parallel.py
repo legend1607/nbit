@@ -79,9 +79,8 @@ def generate_single_env(args):
                     "env_idx": env_idx,
                     "config_dim": env.config_dim,
                     "bound": env.bound,
-                    "env_dims": [env.bound[1][0], env.bound[1][1]],   # ✅ 新增
-                    "rectangle_obstacles": env.rect_obstacles,         # ✅ 新增
-                    "circle_obstacles": env.circle_obstacles,          # ✅ 新增
+                    "env_dims": [env.bound[1][0], env.bound[1][1]],   
+                    "rectangle_obstacles": env.rect_obstacles,       
                     "start": [s.tolist() for s in start_list],
                     "goal": [g.tolist() for g in goal_list],
                     "paths": path_list
@@ -142,18 +141,16 @@ def generate_env_dataset_parallel(config):
 if __name__ == "__main__":
     config = {
         "env_type": "random_2d",
-        "train_env_size": 200,
-        "val_env_size": 25,
-        "test_env_size": 25,
+        "train_env_size": 400,
+        "val_env_size": 50,
+        "test_env_size": 50,
         "num_samples_per_env": 5,
         "batch_size": 200,
         "iter_max": 200,
         "env_dims": [224, 224],
         "num_workers": 4,
-        "num_boxes_range": [5, 10],
-        "num_balls_range": [0, 10],
+        "num_boxes_range": [2, 15],
         "box_size_range": [16, 24],
-        "ball_radius_range": [16, 24],
     }
 
     generate_env_dataset_parallel(config)

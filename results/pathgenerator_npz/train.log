@@ -1,0 +1,42 @@
+2025-11-14 19:45:00,764 Random seed: 42
+2025-11-14 19:45:00,765 Using fixed bound: min=[0. 0.], max=[224. 224.]
+2025-11-14 19:45:01,155 Loaded train=1090, val=143, max path len=10
+2025-11-14 19:45:01,800 Loaded CAE encoder and frozen parameters
+2025-11-14 19:50:11,859 Random seed: 42
+2025-11-14 19:50:11,860 Using fixed bound: min=[0. 0.], max=[224. 224.]
+2025-11-14 19:50:12,238 Loaded train=1090, val=143, max path len=10
+2025-11-14 19:50:12,817 Loaded CAE encoder and frozen parameters
+2025-11-14 19:50:42,457 [Epoch 1] Val Loss: nan
+2025-11-14 19:51:10,533 [Epoch 2] Val Loss: nan
+2025-11-14 20:18:52,200 Random seed: 42
+2025-11-14 20:18:52,201 Using fixed bound: min=[0. 0.], max=[224. 224.]
+2025-11-14 20:18:52,590 Loaded train=1134, val=141, max path len=11
+2025-11-14 20:18:53,357 Loaded CAE encoder and frozen parameters
+2025-11-14 20:19:15,278 Random seed: 42
+2025-11-14 20:19:15,278 Using fixed bound: min=[0. 0.], max=[224. 224.]
+2025-11-14 20:19:15,664 Loaded train=1134, val=141, max path len=11
+2025-11-14 20:19:16,282 Loaded CAE encoder and frozen parameters
+2025-11-14 20:21:59,120 Random seed: 42
+2025-11-14 20:21:59,121 Using fixed bound: min=[0. 0.], max=[224. 224.]
+2025-11-14 20:21:59,544 Loaded train=1134, val=141, max path len=11
+2025-11-14 20:22:00,136 Loaded CAE encoder and frozen parameters
+2025-11-14 20:22:29,469 [Epoch 1] Val Loss: 25.837590
+2025-11-14 20:22:29,477 Saved best model at epoch 1, Val Loss: 25.837590
+2025-11-14 20:22:56,776 [Epoch 2] Val Loss: 20.944307
+2025-11-14 20:22:56,782 Saved best model at epoch 2, Val Loss: 20.944307
+2025-11-14 20:23:23,697 [Epoch 3] Val Loss: 17.302202
+2025-11-14 20:23:23,703 Saved best model at epoch 3, Val Loss: 17.302202
+2025-11-14 20:23:50,794 [Epoch 4] Val Loss: 14.189966
+2025-11-14 20:23:50,800 Saved best model at epoch 4, Val Loss: 14.189966
+2025-11-14 20:24:17,518 [Epoch 5] Val Loss: 14.992407
+2025-11-14 20:24:44,919 [Epoch 6] Val Loss: 14.543833
+2025-11-14 20:25:12,796 [Epoch 7] Val Loss: 11.742527
+2025-11-14 20:25:12,802 Saved best model at epoch 7, Val Loss: 11.742527
+2025-11-14 20:25:40,123 [Epoch 8] Val Loss: 11.722862
+2025-11-14 20:25:40,129 Saved best model at epoch 8, Val Loss: 11.722862
+2025-11-14 20:26:07,244 [Epoch 9] Val Loss: 10.007042
+2025-11-14 20:26:07,250 Saved best model at epoch 9, Val Loss: 10.007042
+2025-11-14 20:26:33,535 [Epoch 10] Val Loss: 9.053146
+2025-11-14 20:26:33,541 Saved best model at epoch 10, Val Loss: 9.053146
+2025-11-14 20:26:59,855 [Epoch 11] Val Loss: 8.545926
+2025-11-14 20:26:59,862 Saved best model at epoch 11, Val Loss: 8.545926

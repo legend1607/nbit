@@ -4,7 +4,7 @@ train_pathkeypoint_npz.py
 训练 PathKeypointGenerator，使用 npz 中 path 数据。
 - 输入: CAE latent + 起止点
 - 输出: n_points 无序散点路径关键点
-- 损失: 覆盖 soft label 区域
+- 损失: PathGenerationLoss（折线带状点云）
 - 支持 TensorBoard
 - 固定 bound_min / bound_max
 """
@@ -52,12 +52,11 @@ class PathDataset(Dataset):
         self.grids = data['grid']      # (N,H,W)
         self.starts = data['start']    # (N,2)
         self.goals = data['goal']      # (N,2)
-        paths = list(data['path'])           # list of (N_pc,2)
+        paths = list(data['path'])     # list of (N_pc,2)
 
         if max_len is None:
             max_len = max([p.shape[0] for p in paths])
         self.paths, self.masks = pad_paths(paths, max_len)
-
         self.n_samples = len(self.grids)
 
     def __len__(self):
@@ -81,14 +80,13 @@ def parse_args():
     parser.add_argument('--encoder_ckpt', type=str, default='results/cae/encoder_best.pth')
     parser.add_argument('--save_dir', type=str, default='results/pathgenerator_npz')
     parser.add_argument('--batch_size', type=int, default=16)
-    parser.add_argument('--num_epochs', type=int, default=200)
+    parser.add_argument('--num_epochs', type=int, default=100)
     parser.add_argument('--lr', type=float, default=1e-4)
     parser.add_argument('--latent_dim', type=int, default=256)
     parser.add_argument('--n_points', type=int, default=128)
     parser.add_argument('--random_seed', type=int, default=42)
     parser.add_argument('--bound_min', nargs=2, type=float, default=[0.0, 0.0])
     parser.add_argument('--bound_max', nargs=2, type=float, default=[224, 224])
-    parser.add_argument('--sigma', type=float, default=0.5, help="Gaussian sigma for soft label loss")
     return parser.parse_args()
 
 # ------------------------------
@@ -143,9 +141,21 @@ def main(args):
         bound_max=bound_max
     ).cuda()
 
-    criterion = PathGenerationLoss(sigma=args.sigma).cuda()
-    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+    # ------------------------------
+    # 使用新版 PathGenerationLoss
+    # ------------------------------
+    criterion = PathGenerationLoss(
+        sigma_center=3.0,
+        sigma_key=3.0,
+        min_dist=0.03,
+        target_bandwidth=5.0,
+        w_centerline=1.0,
+        w_keypoint=1.0,
+        w_repulsion=0.1,
+        w_bandwidth=0.05
+    ).cuda()
 
+    optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
     best_val_loss = float('inf')
 
     # ------------------------------
@@ -156,28 +166,26 @@ def main(args):
         model.train()
         total_loss = 0.0
         for grid, start, goal, path, mask in tqdm(train_loader, desc=f"Epoch {epoch} [Train]"):
-            grid = grid.cuda()
-            start = start.cuda()
-            goal = goal.cuda()
-            path = path.cuda()
-            mask = mask.cuda()
+            grid = grid.cuda(non_blocking=True)
+            start = start.cuda(non_blocking=True)
+            goal = goal.cuda(non_blocking=True)
+            path = path.cuda(non_blocking=True)
+            mask = mask.cuda(non_blocking=True)
 
-            # 1. CAE encode
             with torch.no_grad():
                 latent, _ = encoder(grid)
 
-            # 2. Forward
             pred_points = model(latent, start, goal)
 
-            # 3. Loss
-            loss, _ = criterion(pred_points, path, mask)
+            loss_dict = criterion(pred_points, path, mask)
+            loss = loss_dict["loss"]
+
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
             total_loss += loss.item() * grid.size(0)
 
         avg_train_loss = total_loss / len(train_ds)
-        # log(f"[Epoch {epoch}] Train Loss: {avg_train_loss:.6f}")
         writer.add_scalar('Train/Loss', avg_train_loss, epoch)
 
         # -------- Validation --------
@@ -185,16 +193,16 @@ def main(args):
         val_loss_sum = 0.0
         with torch.no_grad():
             for grid, start, goal, path, mask in tqdm(val_loader, desc=f"Epoch {epoch} [Val]"):
-                grid = grid.cuda()
-                start = start.cuda()
-                goal = goal.cuda()
-                path = path.cuda()
-                mask = mask.cuda()
+                grid = grid.cuda(non_blocking=True)
+                start = start.cuda(non_blocking=True)
+                goal = goal.cuda(non_blocking=True)
+                path = path.cuda(non_blocking=True)
+                mask = mask.cuda(non_blocking=True)
 
                 latent, _ = encoder(grid)
                 pred_points = model(latent, start, goal)
-                loss, _ = criterion(pred_points, path, mask)
-                val_loss_sum += loss.item() * grid.size(0)
+                loss_dict = criterion(pred_points, path, mask)
+                val_loss_sum += loss_dict["loss"].item() * grid.size(0)
 
         avg_val_loss = val_loss_sum / len(val_ds)
         log(f"[Epoch {epoch}] Val Loss: {avg_val_loss:.6f}")
@@ -208,7 +216,6 @@ def main(args):
             log(f"Saved best model at epoch {epoch}, Val Loss: {best_val_loss:.6f}")
 
     writer.close()
-
 
 # ------------------------------
 # Entry

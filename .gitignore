@@ -2,6 +2,7 @@
 __pycache__/
 *.zip
 *.npy
+*.npz
 *.pth
 *.csv
 *.png

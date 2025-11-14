@@ -61,7 +61,7 @@ def visualize_env(env_dict, resolution=1.0):
 # 示例使用
 # -----------------------------
 if __name__ == "__main__":
-    env_json_path = "data/random_2d/test/envs.json"
+    env_json_path = "data/random_2d/val/envs.json"
     with open(env_json_path, "r") as f:
         env_list = json.load(f)
 

@@ -98,12 +98,10 @@ def visualize_pointwise_losses(env_json, grid, recon_grid, gt_path, pred_points,
     plt.show()
 
 # ---------------- 主测试函数 ----------------
+# ---------------- 主测试函数 ----------------
 if __name__ == "__main__":
-    # 配置遍历列表
-    env_ids = [0, 1, 2,3,4,5,6,7,8,9]          # 可自定义要遍历的环境索引
-    sample_ids = [0, 1,2]          # 可自定义每个环境的样本索引
+    env_ids = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19]     # 遍历哪些环境
 
-    # 加载 JSON
     json_path="data/random_2d/train/envs.json"
     cae_encoder_path="results/cae/encoder_best.pth"
     cae_decoder_path="results/cae/decoder_best.pth"
@@ -124,28 +122,50 @@ if __name__ == "__main__":
     generator.load_state_dict(torch.load(generator_path))
     generator.eval()
 
-    # 遍历 env_id 和 sample_id
+    # 遍历 env_id
     for env_id in env_ids:
         env_json = envs[env_id]
+
+        # ⭐ 自动生成 sample_ids（根据 JSON 中 paths 的实际数量）
+        total_samples = len(env_json["paths"])
+        sample_ids = list(range(total_samples))
+
+        print(f"Env {env_id} 共 {total_samples} 个 samples")
+
         for sample_id in sample_ids:
+
+            # ---------- 安全检查 ----------
+            if sample_id >= len(env_json["paths"]):
+                print(f"跳过 env {env_id} 中不存在的 sample {sample_id}")
+                continue
+            if "start" not in env_json or "goal" not in env_json:
+                print(f"跳过 env {env_id}（缺少 start/goal 字段）")
+                continue
+            if sample_id >= len(env_json["start"]) or sample_id >= len(env_json["goal"]):
+                print(f"跳过 env {env_id} 的 sample {sample_id}（start/goal 数量不足）")
+                continue
+
             print(f"Processing env {env_id}, sample {sample_id}")
 
+            # ---------- 数据准备 ----------
             gt_path = np.array(env_json["paths"][sample_id], dtype=np.float32)
             grid = render_grid_from_json(env_json, size=224)
             grid_tensor = torch.from_numpy(grid).float().unsqueeze(0).unsqueeze(0).cuda()
 
-            # CAE 前向
+            # ---------- CAE 重建 ----------
             with torch.no_grad():
                 latent, enc_feats = cae_encoder(grid_tensor)
                 recon = cae_decoder(latent, enc_feats)
             recon_np = recon[0,0].cpu().numpy()
 
-            # Generator 前向
+            # ---------- 路径预测 ----------
             with torch.no_grad():
-                start = torch.tensor(env_json["start"][sample_id], dtype=torch.float32).unsqueeze(0).cuda()
-                goal  = torch.tensor(env_json["goal"][sample_id], dtype=torch.float32).unsqueeze(0).cuda()
+                start = torch.tensor(env_json["start"][sample_id],
+                                     dtype=torch.float32).unsqueeze(0).cuda()
+                goal  = torch.tensor(env_json["goal"][sample_id],
+                                     dtype=torch.float32).unsqueeze(0).cuda()
                 pred = generator(latent, start, goal)
                 pred_np = pred[0].cpu().numpy()
 
-            # 可视化每个点的 loss
+            # ---------- 可视化 ----------
             visualize_pointwise_losses(env_json, grid, recon_np, gt_path, pred_np)

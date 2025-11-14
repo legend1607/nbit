@@ -1,7 +1,6 @@
-#generate_world.py
+# generate_world.py
 import os
 import json
-import time
 import random
 import numpy as np
 from os.path import join
@@ -14,19 +13,32 @@ from path_planning_classes.bit_star import BITStar  # 使用 2D BIT* 或 NBIT* �
 # ---------------- 随机障碍物生成 ----------------
 def add_random_obstacles_2d(env, config):
     """
-    在 2D 环境中生成随机矩形和障碍
+    在 2D 环境中生成随机矩形障碍
     """
     obstacles = []
-
-    # 矩形
     for _ in range(random.randint(*config["num_boxes_range"])):
         w, h = random.uniform(*config["box_size_range"]), random.uniform(*config["box_size_range"])
         x = random.uniform(0, env.bound[1][0] - w)
         y = random.uniform(0, env.bound[1][1] - h)
         env.rect_obstacles.append([x, y, w, h])
         obstacles.append(("rect", [x, y, w, h]))
-
     return obstacles
+
+# ---------------- 路径直线判断与随机保留 ----------------
+def is_straight_line(path, ratio_threshold=1.05):
+    path = np.array(path)
+    if len(path) < 3:  # 少于3点肯定是直线
+        return True
+    path_length = np.sum(np.linalg.norm(path[1:] - path[:-1], axis=1))
+    straight_distance = np.linalg.norm(path[-1] - path[0])
+    return path_length / straight_distance <= ratio_threshold
+
+def keep_path(path, ratio_threshold=1.05, p_keep_straight=0.2):
+    if path is None or len(path) <= 2:
+        return False  # 路径太短直接丢弃
+    if is_straight_line(path, ratio_threshold):
+        return random.random() < p_keep_straight  # 直线路径按概率保留
+    return True  # 非直线路径保留
 
 # ---------------- 单环境生成 ----------------
 def generate_single_env(args):
@@ -46,7 +58,8 @@ def generate_single_env(args):
             add_random_obstacles_2d(env, config)
 
             # 生成路径
-            for _ in range(config["num_samples_per_env"]):
+            valid_paths = 0
+            while valid_paths < config["num_samples_per_env"]:
                 problem = env.set_random_init_goal()
                 start, goal = problem["start"], problem["goal"]
 
@@ -60,12 +73,14 @@ def generate_single_env(args):
                 planner.planning(visualize=False)
                 path = planner.get_best_path()
 
-                if path is None or len(path) <= 0:
+                if not keep_path(path, ratio_threshold=config.get("straight_ratio_threshold", 1.05),
+                                 p_keep_straight=config.get("p_keep_straight", 0.2)):
                     continue
 
                 path_list.append(path)
                 start_list.append(start)
                 goal_list.append(goal)
+                valid_paths += 1  
 
             if path_list:
                 env_dict = {
@@ -80,7 +95,7 @@ def generate_single_env(args):
                 }
                 return env_dict
 
-        except Exception as e:
+        except Exception:
             continue
 
 # ---------------- 数据集生成 ----------------
@@ -95,7 +110,7 @@ def generate_env_dataset_parallel(config):
     num_workers = max(1, min(cpu_count(), config.get("num_workers", cpu_count())))
     print(f"🧩 使用 {num_workers} 个并行进程")
 
-    for mode in ["test"]:
+    for mode in ["train","val","test"]:
         data_dir = join("data", env_type, mode)
         os.makedirs(data_dir, exist_ok=True)
         path_dir = join(data_dir, "paths")
@@ -104,11 +119,12 @@ def generate_env_dataset_parallel(config):
         env_list = [None] * target_sizes[mode]
         target_num = target_sizes[mode]
         success_count = 0
+        straight_count = 0  # 直线路径计数
+        total_paths = 0     # 总路径计数
 
         print(f"\n=== 开始生成 [{mode}] 数据集，目标数量：{target_num} ===")
         pbar = tqdm(total=target_num)
 
-        # 构建任务列表
         tasks = [(idx, config) for idx in range(target_num)]
 
         with Pool(processes=num_workers) as pool:
@@ -118,10 +134,13 @@ def generate_env_dataset_parallel(config):
                 success_count += 1
                 pbar.update(1)
 
-                # 保存路径
+                # 保存路径并统计直线比例
                 for i, path in enumerate(env_dict["paths"]):
                     np.savetxt(join(path_dir, f"{env_idx}_{i}.txt"),
                                np.array(path), fmt="%.4f", delimiter=",")
+                    total_paths += 1
+                    if is_straight_line(path, ratio_threshold=config.get("straight_ratio_threshold", 1.05)):
+                        straight_count += 1
 
         # 保存 JSON 文件
         with open(join(data_dir, "envs.json"), "w") as f:
@@ -129,6 +148,8 @@ def generate_env_dataset_parallel(config):
 
         pbar.close()
         print(f"[{mode}] ✅ 生成完成，共 {success_count} 个有效环境")
+        if total_paths > 0:
+            print(f"直线路径占比: {straight_count}/{total_paths} = {straight_count/total_paths:.2%}")
 
 # ---------------- 主函数 ----------------
 if __name__ == "__main__":
@@ -144,6 +165,8 @@ if __name__ == "__main__":
         "num_workers": 4,
         "num_boxes_range": [5, 20],
         "box_size_range": [10, 24],
+        "straight_ratio_threshold": 1.05,  # 直线判定阈值
+        "p_keep_straight": 0.05,            # 保留直线路径概率
     }
 
     generate_env_dataset_parallel(config)

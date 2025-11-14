@@ -1,3 +1,4 @@
+#generate_world.py
 import os
 import json
 import time
@@ -13,7 +14,7 @@ from path_planning_classes.bit_star import BITStar  # 使用 2D BIT* 或 NBIT* �
 # ---------------- 随机障碍物生成 ----------------
 def add_random_obstacles_2d(env, config):
     """
-    在 2D 环境中生成随机矩形和圆形障碍
+    在 2D 环境中生成随机矩形和障碍
     """
     obstacles = []
 
@@ -24,14 +25,6 @@ def add_random_obstacles_2d(env, config):
         y = random.uniform(0, env.bound[1][1] - h)
         env.rect_obstacles.append([x, y, w, h])
         obstacles.append(("rect", [x, y, w, h]))
-
-    # 圆形
-    for _ in range(random.randint(*config["num_balls_range"])):
-        r = random.uniform(*config["ball_radius_range"])
-        x = random.uniform(r, env.bound[1][0] - r)
-        y = random.uniform(r, env.bound[1][1] - r)
-        env.circle_obstacles.append([x, y, r])
-        obstacles.append(("circle", [x, y, r]))
 
     return obstacles
 
@@ -67,7 +60,7 @@ def generate_single_env(args):
                 planner.planning(visualize=False)
                 path = planner.get_best_path()
 
-                if path is None or len(path) == 0:
+                if path is None or len(path) <= 0:
                     continue
 
                 path_list.append(path)
@@ -102,7 +95,7 @@ def generate_env_dataset_parallel(config):
     num_workers = max(1, min(cpu_count(), config.get("num_workers", cpu_count())))
     print(f"🧩 使用 {num_workers} 个并行进程")
 
-    for mode in ["train", "val", "test"]:
+    for mode in ["test"]:
         data_dir = join("data", env_type, mode)
         os.makedirs(data_dir, exist_ok=True)
         path_dir = join(data_dir, "paths")
@@ -146,11 +139,11 @@ if __name__ == "__main__":
         "test_env_size": 50,
         "num_samples_per_env": 5,
         "batch_size": 200,
-        "iter_max": 200,
+        "iter_max": 500,
         "env_dims": [224, 224],
         "num_workers": 4,
-        "num_boxes_range": [2, 15],
-        "box_size_range": [16, 24],
+        "num_boxes_range": [5, 20],
+        "box_size_range": [10, 24],
     }
 
     generate_env_dataset_parallel(config)

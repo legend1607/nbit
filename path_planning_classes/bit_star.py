@@ -489,24 +489,24 @@ class BITStar:
 
                 ax.legend()
 
-            # if len(self.path) == 2 and self.path[0] == self.start and self.path[1] == self.goal:
-            #     # 找到直接连接的最优路径，退出迭代
-            #     # print(f"可以直接连通起点和终点，退出迭代")
-            #     break
+            if len(self.path) == 2 and self.path[0] == self.start and self.path[1] == self.goal:
+                # 找到直接连接的最优路径，退出迭代
+                # print(f"可以直接连通起点和终点，退出迭代")
+                break
 
-            # # 判定 2：环境允许直接连线，并且路径长度接近直线距离
-            # direct_free = False
-            # try:
-            #     direct_free = self.is_edge_free([self.start, self.goal])
-            # except Exception:
-            #     # 如果 env._edge_fp 不支持或报错，则忽略此条件
-            #     direct_free = False
+            # 判定 2：环境允许直接连线，并且路径长度接近直线距离
+            direct_free = False
+            try:
+                direct_free = self.is_edge_free([self.start, self.goal])
+            except Exception:
+                # 如果 env._edge_fp 不支持或报错，则忽略此条件
+                direct_free = False
 
-            # if direct_free:
-            #     current_len = self.path_length_calculate(self.path) if len(self.path) > 1 else INF
-            #     straight_len = self.distance(self.start, self.goal)
-            #     if abs(current_len - straight_len) <= 1e-5:
-            #         break
+            if direct_free:
+                current_len = self.path_length_calculate(self.path) if len(self.path) > 1 else INF
+                straight_len = self.distance(self.start, self.goal)
+                if abs(current_len - straight_len) <= 1e-5:
+                    break
                 
         return (self.path,
             self.samples,

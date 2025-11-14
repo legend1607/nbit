@@ -27,7 +27,7 @@ def env_to_grid(env, resolution=0.1):
         y2 = int((ry + rh) / resolution)
         grid[y1:y2, x1:x2] = 1
 
-    return np.flipud(grid)
+    return grid
 
 # ----------------------------
 # 随机生成障碍

@@ -91,6 +91,7 @@ def main():
     # 初始化模型
     # ===============================
     input_size = data.shape[-1]
+    print(input_size)
     encoder = Encoder_CNN_2D(input_size=input_size, latent_dim=args.latent_dim).to(device)
     decoder = Decoder_CNN_2D(feature_map_size=encoder.feature_map_size, latent_dim=args.latent_dim).to(device)
     encoder.load_state_dict(torch.load(encoder_path, map_location=device))
